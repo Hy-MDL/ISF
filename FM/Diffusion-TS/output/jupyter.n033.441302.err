@@ -1,0 +1,173 @@
+
+Note: the module "CUDA/11.2.2" cannot be unloaded because it was not loaded.
+
+/home1/gkrtod35/miniconda3/envs/df/lib/python3.10/site-packages/requests/__init__.py:86: RequestsDependencyWarning: Unable to find acceptable character detection dependency (chardet or charset_normalizer).
+  warnings.warn(
+[I 2025-07-07 14:42:52.222 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-07-07 14:42:52.226 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-07-07 14:42:52.230 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-07 14:42:52.655 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-07 14:42:52.683 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-07 14:42:52.685 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-07-07 14:42:52.686 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-07-07 14:42:52.687 LabApp] JupyterLab extension loaded from /home1/gkrtod35/miniconda3/envs/df/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-07 14:42:52.687 LabApp] JupyterLab application directory is /gpfs/home1/gkrtod35/miniconda3/envs/df/share/jupyter/lab
+[I 2025-07-07 14:42:52.688 LabApp] Extension Manager is 'pypi'.
+[I 2025-07-07 14:42:52.760 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-07 14:42:52.761 ServerApp] Serving notebooks from local directory: /home1/gkrtod35
+[I 2025-07-07 14:42:52.761 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2025-07-07 14:42:52.761 ServerApp] http://n033.hpc:8888/lab
+[I 2025-07-07 14:42:52.761 ServerApp]     http://127.0.0.1:8888/lab
+[I 2025-07-07 14:42:52.761 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-07 14:42:52.781 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-07-07 14:43:23.173 ServerApp] 302 GET / (@192.168.140.2) 0.39ms
+[I 2025-07-07 14:43:23.177 LabApp] 302 GET /lab? (@192.168.140.2) 0.51ms
+[W 2025-07-07 14:43:24.541 ServerApp] 401 POST /login?next=%2Flab%3F (@192.168.140.2) 42.13ms referer=http://localhost:8888/login?next=%2Flab%3F
+[W 2025-07-07 14:43:25.280 ServerApp] 401 POST /login?next=%2Flab%3F (@192.168.140.2) 18.30ms referer=http://localhost:8888/login?next=%2Flab%3F
+[I 2025-07-07 14:43:28.465 ServerApp] User bf947e27635e4a57acde4a96f87a12a9 logged in.
+[I 2025-07-07 14:43:28.466 ServerApp] 302 POST /login?next=%2Flab%3F (bf947e27635e4a57acde4a96f87a12a9@192.168.140.2) 17.89ms
+[W 2025-07-07 14:43:29.209 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-07 14:43:29.820 ServerApp] Notebook Diffusion-TS/CNN-LSTM.ipynb is not trusted
+[W 2025-07-07 14:43:29.823 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[W 2025-07-07 14:43:29.825 ServerApp] Notebook Diffusion-TS/cnn-lstm-tf.ipynb is not trusted
+[W 2025-07-07 14:43:29.896 ServerApp] 404 GET /api/contents/merged_results?content=0&hash=0&1751867009842 (bf947e27635e4a57acde4a96f87a12a9@192.168.140.2) 0.66ms referer=http://localhost:8888/lab?
+[W 2025-07-07 14:43:29.896 ServerApp] 404 GET /api/contents/merged_results?content=0&hash=0&1751867009842 (192.168.140.2): No such file or directory: merged_results
+[W 2025-07-07 14:43:29.900 ServerApp] 404 GET /api/contents/merged_results?content=0&hash=0&1751867009845 (bf947e27635e4a57acde4a96f87a12a9@192.168.140.2) 0.56ms referer=http://localhost:8888/lab?
+[W 2025-07-07 14:43:29.900 ServerApp] 404 GET /api/contents/merged_results?content=0&hash=0&1751867009845 (192.168.140.2): No such file or directory: merged_results
+[I 2025-07-07 14:43:30.106 ServerApp] Kernel started: 6a0c5e51-6f54-410c-a2c2-5b9c1ff3da79
+[I 2025-07-07 14:43:30.109 ServerApp] Kernel started: c0a2301a-d6b1-4f46-abd6-b3ab02f6bdc8
+[I 2025-07-07 14:43:30.112 ServerApp] Kernel started: 5b4bcec7-8850-4480-85af-ab79783e0bac
+[I 2025-07-07 14:43:30.115 ServerApp] Kernel started: d76180b7-04d9-41e9-a65d-5203c286b357
+[I 2025-07-07 14:43:31.031 ServerApp] Connecting to kernel d76180b7-04d9-41e9-a65d-5203c286b357.
+[W 2025-07-07 14:43:31.032 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-07-07 14:43:31.094 ServerApp] Starting buffering for d76180b7-04d9-41e9-a65d-5203c286b357:0891f628-7397-4075-a508-e9182940e928
+[I 2025-07-07 14:43:31.102 ServerApp] Connecting to kernel 6a0c5e51-6f54-410c-a2c2-5b9c1ff3da79.
+[I 2025-07-07 14:43:31.166 ServerApp] Connecting to kernel c0a2301a-d6b1-4f46-abd6-b3ab02f6bdc8.
+[I 2025-07-07 14:43:31.275 ServerApp] Connecting to kernel 5b4bcec7-8850-4480-85af-ab79783e0bac.
+[I 2025-07-07 14:43:31.352 ServerApp] Connecting to kernel d76180b7-04d9-41e9-a65d-5203c286b357.
+[I 2025-07-07 14:43:31.420 ServerApp] Connecting to kernel d76180b7-04d9-41e9-a65d-5203c286b357.
+[I 2025-07-07 14:44:02.320 ServerApp] Kernel started: 7271124a-579a-466d-93e5-87f1ff3fca21
+[I 2025-07-07 14:44:03.078 ServerApp] Connecting to kernel 7271124a-579a-466d-93e5-87f1ff3fca21.
+[I 2025-07-07 14:45:29.939 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 14:45:29.939 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 14:46:02.251 ServerApp] Saving file at /Diffusion-TS/DFgen.ipynb
+[I 2025-07-07 14:47:30.015 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 14:47:30.015 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 14:48:02.324 ServerApp] Saving file at /Diffusion-TS/DFgen.ipynb
+[I 2025-07-07 14:48:29.386 ServerApp] Kernel interrupted: 6a0c5e51-6f54-410c-a2c2-5b9c1ff3da79
+[I 2025-07-07 14:49:03.019 ServerApp] Kernel interrupted: 6a0c5e51-6f54-410c-a2c2-5b9c1ff3da79
+[W 2025-07-07 14:49:03.197 ServerApp] 404 GET /api/contents/merged_results?content=0&hash=0&1751867343142 (bf947e27635e4a57acde4a96f87a12a9@192.168.140.2) 1.01ms referer=http://localhost:8888/lab/tree/Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 14:49:03.197 ServerApp] 404 GET /api/contents/merged_results?content=0&hash=0&1751867343142 (192.168.140.2): No such file or directory: merged_results
+[I 2025-07-07 14:49:30.073 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 14:49:30.073 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 14:52:44.941 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 14:52:44.942 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 14:52:53.767 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 14:52:53.768 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 14:52:59.967 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 14:52:59.967 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 14:55:00.050 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 14:55:00.050 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 14:55:24.629 ServerApp] Kernel interrupted: 6a0c5e51-6f54-410c-a2c2-5b9c1ff3da79
+[W 2025-07-07 14:55:24.766 ServerApp] 404 GET /api/contents/merged_results?content=0&hash=0&1751867724712 (bf947e27635e4a57acde4a96f87a12a9@192.168.140.2) 0.77ms referer=http://localhost:8888/lab/tree/Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 14:55:24.766 ServerApp] 404 GET /api/contents/merged_results?content=0&hash=0&1751867724712 (192.168.140.2): No such file or directory: merged_results
+[I 2025-07-07 14:57:00.120 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 14:57:00.121 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 14:58:55.749 ServerApp] Saving file at /Diffusion-TS/single_run.py
+[I 2025-07-07 15:01:00.246 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:01:00.246 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:03:00.327 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:03:00.328 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:05:01.322 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:05:01.323 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:07:02.319 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:07:02.320 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:17:07.340 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:17:07.341 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:19:08.324 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:19:08.325 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:27:12.342 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:27:12.342 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:31:14.329 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:31:14.329 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:39:18.403 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:39:18.403 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:41:19.337 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:41:19.337 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:49:23.352 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:49:23.352 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 15:53:25.341 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 15:53:25.341 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:01:29.356 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:01:29.356 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:05:31.341 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:05:31.342 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:13:35.359 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:13:35.359 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:15:36.339 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:15:36.339 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:23:40.361 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:23:40.362 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:27:42.344 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:27:42.345 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:35:46.364 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:35:46.364 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:39:48.363 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:39:48.364 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:45:49.362 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:45:49.362 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:47:49.443 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:47:49.444 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:49:49.522 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:49:49.522 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:51:49.602 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:51:49.603 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:55:49.691 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:55:49.692 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:57:27.753 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:57:27.754 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 16:59:27.832 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 16:59:27.833 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 17:01:27.915 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 17:01:27.915 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 17:03:27.981 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 17:03:27.982 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 17:05:28.064 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 17:05:28.065 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 17:06:00.930 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 17:06:00.931 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 17:06:01.822 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 17:06:01.823 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[I 2025-07-07 17:10:01.910 ServerApp] Saving file at /Diffusion-TS/DFgen-short.ipynb
+[W 2025-07-07 17:10:01.911 ServerApp] Notebook Diffusion-TS/DFgen-short.ipynb is not trusted
+[W 2025-07-07 17:12:01.103 ServerApp] WebSocket ping timeout after 119996 ms.
+[W 2025-07-07 17:12:01.171 ServerApp] WebSocket ping timeout after 120001 ms.
+[W 2025-07-07 17:12:01.276 ServerApp] WebSocket ping timeout after 119998 ms.
+[W 2025-07-07 17:12:01.353 ServerApp] WebSocket ping timeout after 119986 ms.
+[W 2025-07-07 17:12:01.355 ServerApp] 
+[W 2025-07-07 17:12:01.360 ServerApp] 
+[W 2025-07-07 17:12:01.899 ServerApp] 
+[W 2025-07-07 17:12:01.904 ServerApp] 
+[W 2025-07-07 17:12:02.445 ServerApp] 
+[W 2025-07-07 17:12:02.450 ServerApp] 
+[W 2025-07-07 17:12:02.801 ServerApp] 
+[W 2025-07-07 17:12:02.805 ServerApp] 
+[W 2025-07-07 17:12:03.079 ServerApp] WebSocket ping timeout after 119996 ms.
+[W 2025-07-07 17:12:03.344 ServerApp] 
+[W 2025-07-07 17:12:03.349 ServerApp] 
+[W 2025-07-07 17:12:03.889 ServerApp] 
+[W 2025-07-07 17:12:03.894 ServerApp] 
+[W 2025-07-07 17:12:04.435 ServerApp] 
+[W 2025-07-07 17:12:04.439 ServerApp] 
+[W 2025-07-07 17:12:04.981 ServerApp] 
+[W 2025-07-07 17:12:04.985 ServerApp] 
+[W 2025-07-07 17:12:05.335 ServerApp] 
+[W 2025-07-07 17:12:05.339 ServerApp] 
+[W 2025-07-07 17:12:05.880 ServerApp] 
+[W 2025-07-07 17:12:05.888 ServerApp] 
+[I 2025-07-07 17:12:06.105 ServerApp] Starting buffering for 6a0c5e51-6f54-410c-a2c2-5b9c1ff3da79:1bbcecbb-93e5-4733-8457-0003e3d536a0
+[I 2025-07-07 17:12:06.173 ServerApp] Starting buffering for c0a2301a-d6b1-4f46-abd6-b3ab02f6bdc8:decf8130-2e01-457a-aa11-91d1e7376a94
+[I 2025-07-07 17:12:06.279 ServerApp] Starting buffering for 5b4bcec7-8850-4480-85af-ab79783e0bac:5a8ab027-f783-463a-8998-3c8205e2c8a0
+[I 2025-07-07 17:12:06.353 ServerApp] Starting buffering for d76180b7-04d9-41e9-a65d-5203c286b357:99be8357-d53b-42e5-b09b-a95c93a59046
+[I 2025-07-07 17:12:08.080 ServerApp] Starting buffering for 7271124a-579a-466d-93e5-87f1ff3fca21:dc6841b1-8f9d-44a9-85de-1b3e861cc8f8
